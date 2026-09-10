@@ -1,0 +1,21 @@
+{
+  "name": "song-playlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node scr/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "nodemon": "^3.1.14",
+    "typescript": "^6.0.3"
+  }
+}
